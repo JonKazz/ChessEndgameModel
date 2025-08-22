@@ -4,20 +4,20 @@ A machine learning model that predicts the minimum number of moves to win in Kin
 
 ## Project Overview
 
-This model analyzes chess endgame positions where one player has a King and Rook against an opponent with just a King. The goal is to predict the minimum number of moves required to achieve checkmate, helping players understand the optimal path to victory in this classic endgame scenario.
+This model analyzes chess endgame positions where one player has a King and Rook against an opponent with just a King. The goal is to predict the minimum number of moves required to achieve checkmate.
 
 ## Model Performance
 
-The model achieves **98% accuracy** in predicting minimum moves to win, as measured by:
+The model achieves **97.65% accuracy** in predicting minimum moves to win, as measured by:
 - **5-fold stratified cross-validation**
 - **Macro F1-score average**
 
-This robust evaluation method ensures the model's performance is consistent across different data splits and maintains high accuracy across all move count categories.
+This evaluation method ensures the model's performance is consistent across different data splits and maintains high accuracy across all move count categories.
 
 ## Technical Details
 
 - **Algorithm**: LightGBM (Light Gradient Boosting Machine)
-- **Features**: Chess position characteristics and board state analysis
+- **Features**: Chess position characteristics and board state
 - **Evaluation**: Stratified K-fold cross-validation to handle class imbalance
 - **Metrics**: Classification accuracy and macro F1-score
 
