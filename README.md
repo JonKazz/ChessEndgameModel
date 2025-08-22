@@ -1,6 +1,6 @@
 # Chess Endgame Model - King+Rook vs King
 
-A machine learning model that predicts the minimum number of moves to win in King+Rook vs King chess endgames. This project uses LightGBM to classify optimal move sequences for achieving checkmate.
+A machine learning model that predicts the minimum number of moves required to achieve checkmate in King+Rook vs King chess endgames using LightGBM.
 
 ## Project Overview
 
